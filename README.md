@@ -1,13 +1,13 @@
-### React Bookstore
+## React Bookstore
 > React Setup Project to build a Bookstore.
 
-## Built With
+#### Built With
 
 - React JS
 - Babel
 - Linters: Stylelint & ESlint
 
-### Setup
+#### Setup
 
 Follow these steps on your console to properly clone this repository on your desktop:
 
@@ -21,27 +21,27 @@ Run 'npm start' to run the website from your local machine.
 Run 'npm run build' to build the code after editing it.
 ```
 
-## 👤 Authors
+### 👤 Authors
 
-### Romina Patiño
+#### Romina Patiño
 
 - GitHub: [@rominana](https://github.com/rominana)
 - Twitter: [@romina_pati](https://twitter.com/romina_pati)
 - LinkedIn: [Romina Patiño](https://www.linkedin.com/in/romina-patino)
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/rominana/Math-magicians/issues).
 
-## ⭐️ Show your support
+### ⭐️ Show your support
 
 Give a ⭐️ if you like this project!
 
-## 🥇 Acknowledgments
+### 🥇 Acknowledgments
 
 - This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
 
-## 📝 License
+### 📝 License
 
 MIT License
