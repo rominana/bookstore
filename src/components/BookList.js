@@ -9,11 +9,6 @@ class BookList extends React.PureComponent {
         author: 'Author 1',
         id: '1',
       },
-      {
-        title: 'Book 2',
-        author: 'Author 2',
-        id: '2',
-      },
     ];
 
     return (
