@@ -1,5 +1,5 @@
-## Math Magicians
-> React Setup Project to build a calculator.
+### React Bookstore
+> React Setup Project to build a Bookstore.
 
 ## Built With
 
@@ -32,7 +32,7 @@ Run 'npm run build' to build the code after editing it.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/mikemtzp/Math-magicians/issues).
+Feel free to check the [issues page](https://github.com/rominana/Math-magicians/issues).
 
 ## ⭐️ Show your support
 
