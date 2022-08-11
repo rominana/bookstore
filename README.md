@@ -1,75 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## React Bookstore
+> React Setup Project to build a Bookstore.
 
-# Project Name
+#### Built With
 
-> Description the project.
+- React JS
+- Babel
+- Linters: Stylelint & ESlint
 
+#### Setup
 
-## Built With
+Follow these steps on your console to properly clone this repository on your desktop:
 
-- Major languages
-- Frameworks
-- Technologies used
+```
+$ cd desktop
+$ git clone 'repo_path'
+$ cd 'repo_name'
+$ code . 
+Run 'npm i' to install the dev dependencies.
+Run 'npm start' to run the website from your local machine.
+Run 'npm run build' to build the code after editing it.
+```
 
-## Live Demo (if available)
+### 👤 Authors
 
-[Live Demo Link](https://livedemo.com)
+#### Romina Patiño
 
+- GitHub: [@rominana](https://github.com/rominana)
+- Twitter: [@romina_pati](https://twitter.com/romina_pati)
+- LinkedIn: [Romina Patiño](https://www.linkedin.com/in/romina-patino)
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/rominana/Math-magicians/issues).
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
+### ⭐️ Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+### 🥇 Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
 
-## 📝 License
+### 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+MIT License
