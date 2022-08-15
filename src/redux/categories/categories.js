@@ -8,12 +8,12 @@ const categories = createSlice({
   name: 'categories',
   initialState,
   reducers: {
-    checkStatus: (state, action) => ({
+    CHECK_STATUS: (state, action) => ({
       ...state,
       categories: action.payload,
     }),
   },
 });
 
-export const { checkStatus } = categories.actions;
+export const { CHECK_STATUS } = categories.actions;
 export default categories;

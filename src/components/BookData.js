@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
-import { addNewBook } from '../redux/books/books';
+import { ADD_BOOK } from '../redux/books/books';
 
 const BookData = () => {
   const createBook = (title, author) => ({
@@ -15,7 +15,7 @@ const BookData = () => {
     e.preventDefault();
     const title = e.target.title.value;
     const author = e.target.author.value;
-    dispatch(addNewBook(createBook(title, author)));
+    dispatch(ADD_BOOK(createBook(title, author)));
     e.target.title.value = '';
     e.target.author.value = '';
   };

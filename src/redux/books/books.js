@@ -8,15 +8,16 @@ const books = createSlice({
   name: 'books',
   initialState,
   reducers: {
-    addNewBook: (state, action) => {
+    // addBook and removeBook functions
+    ADD_BOOK: (state, action) => {
       state.books.push(action.payload);
     },
-    removeBook: (state, action) => ({
+    REMOVE_BOOK: (state, action) => ({
       ...state,
       books: state.books.filter((book) => book.id !== action.payload),
     }),
   },
 });
 
-export const { addNewBook, removeBook } = books.actions;
+export const { ADD_BOOK, REMOVE_BOOK } = books.actions;
 export default books;

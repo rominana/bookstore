@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { checkStatus } from '../redux/categories/categories';
+import { CHECK_STATUS } from '../redux/categories/categories';
 
 const Categories = () => {
   const categories = useSelector((state) => state.categories.categories);
@@ -11,7 +11,7 @@ const Categories = () => {
       <div>{categories}</div>
       <button
         type="button"
-        onClick={() => dispatch(checkStatus('Loading...'))}
+        onClick={() => dispatch(CHECK_STATUS('Loading...'))}
       >
         Check Status
       </button>
