@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
 import { addBook } from '../redux/books/books';
 
-const BookInput = () => {
+const BookData = () => {
   const createBook = (title, author) => ({
     title,
     author,
@@ -29,4 +29,4 @@ const BookInput = () => {
   );
 };
 
-export default BookInput;
+export default BookData;

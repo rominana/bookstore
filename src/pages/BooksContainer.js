@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import BookInput from '../components/BookInput';
+import BookData from '../components/BookData';
 import Book from '../components/Book';
 
 const BooksContainer = () => {
@@ -17,7 +17,7 @@ const BooksContainer = () => {
           />
         ))}
       </ul>
-      <BookInput />
+      <BookData />
     </section>
   );
 };
