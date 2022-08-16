@@ -1,47 +1,65 @@
-## React Bookstore
-> React Setup Project to build a Bookstore.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-#### Built With
+# Bookstore
 
-- React JS
-- Babel
-- Linters: Stylelint & ESlint
+> React Bookstore with Redux
 
-#### Setup
+## Built With
 
-Follow these steps on your console to properly clone this repository on your desktop:
+- JavaScript
+- React
+- Redux
+- CSS
+- React Route
+- React Icons
 
-```
-$ cd desktop
-$ git clone 'repo_path'
-$ cd 'repo_name'
-$ code . 
-Run 'npm i' to install the dev dependencies.
-Run 'npm start' to run the website from your local machine.
-Run 'npm run build' to build the code after editing it.
-```
+## Getting Started
 
-###  Authors
+To get a local copy up and running follow these simple example steps.
 
-#### Romina Patiño
+### Prerequisites
+
+ - NPM updated
+ - Modern web browser
+ - Git
+### Setup
+
+    git clone https://github.com/rominana/bookstore.git
+    cd react-tutorial/
+### Install
+
+    npm install
+### Usage
+
+    npm run build
+    npm start
+### Deployment
+
+    npm run deploy
+## Author
+
+👤 **Romina Patiño**
 
 - GitHub: [@rominana](https://github.com/rominana)
 - Twitter: [@romina_pati](https://twitter.com/romina_pati)
-- LinkedIn: [Romina Patiño](https://www.linkedin.com/romina-patino)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/romina-patino)
 
-### Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/rominana/bookstore/issues).
 
-### Show your support
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
 
 Give a ⭐️ if you like this project!
 
-###  Acknowledgments
+## Acknowledgments
 
-- This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
+- Microverse
+- Hat tip to anyone whose code was used
+- My supportive family 😊
 
-### License
+## 📝 License
 
-MIT License
+This project is [MIT](./MIT.md) licensed.
