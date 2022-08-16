@@ -26,7 +26,7 @@ export default function booksReducer(state = defaultState, action = {}) {
 // Action Creators
 export function createBook(book) {
   return { type: CREATE, book };
-}2
+}
 
 export function removeBook(book) {
   return { type: REMOVE, book };
