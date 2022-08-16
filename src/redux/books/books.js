@@ -1,23 +1,25 @@
-import { createSlice } from '@reduxjs/toolkit';
+// Ducks: Redux Reducer Bundles
+// ACTIONS
+const CREATE = 'CREATE';
+const REMOVE = 'REMOVE';
 
-const initialState = {
-  books: [],
-};
+// REDUCER
+export default function booksReducer(state = [], action = {}) {
+  switch (action.type) {
+    case CREATE:
+      return state.concat([action.book]);
+    case REMOVE:
+      return state.filter((book) => JSON.stringify(book) !== JSON.stringify(action.book));
+    default:
+      return state;
+  }
+}
 
-const books = createSlice({
-  name: 'books',
-  initialState,
-  reducers: {
-    // addBook and removeBook functions
-    ADD_BOOK: (state, action) => {
-      state.books.push(action.payload);
-    },
-    REMOVE_BOOK: (state, action) => ({
-      ...state,
-      books: state.books.filter((book) => book.id !== action.payload),
-    }),
-  },
-});
+// Action Creators
+export function createBook(book) {
+  return { type: CREATE, book };
+}
 
-export const { ADD_BOOK, REMOVE_BOOK } = books.actions;
-export default books;
+export function removeBook(book) {
+  return { type: REMOVE, book };
+}
