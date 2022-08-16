@@ -5,10 +5,6 @@ const Navbar = () => (
     <h1>
       <Link to="/" className="logo"> React Bookstore </Link>
     </h1>
-    <ul>
-      {/* <li><Link to="/">Books</Link></li>
-      <li><Link to="/categories">Categories</Link></li> */}
-    </ul>
   </nav>
 );
 
