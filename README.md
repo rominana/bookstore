@@ -21,27 +21,27 @@ Run 'npm start' to run the website from your local machine.
 Run 'npm run build' to build the code after editing it.
 ```
 
-### 👤 Authors
+###  Authors
 
 #### Romina Patiño
 
 - GitHub: [@rominana](https://github.com/rominana)
 - Twitter: [@romina_pati](https://twitter.com/romina_pati)
-- LinkedIn: [Romina Patiño](https://www.linkedin.com/in/romina-patino)
+- LinkedIn: [Romina Patiño](https://www.linkedin.com/romina-patino)
 
-### 🤝 Contributing
+### Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/rominana/Math-magicians/issues).
+Feel free to check the [issues page](https://github.com/rominana/bookstore/issues).
 
-### ⭐️ Show your support
+### Show your support
 
 Give a ⭐️ if you like this project!
 
-### 🥇 Acknowledgments
+###  Acknowledgments
 
 - This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
 
-### 📝 License
+### License
 
 MIT License

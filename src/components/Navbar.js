@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = () => (
   <nav>
     <h1>
-      <Link to="/" className="logo">React Bookstore</Link>
+      <Link to="/" className="logo"> React Bookstore </Link>
     </h1>
     <ul>
-      <li><Link to="/categories">Categories</Link></li>
+      {/* <li><Link to="/">Books</Link></li>
+      <li><Link to="/categories">Categories</Link></li> */}
     </ul>
-  </nav>;
-};
+  </nav>
+);
 
 export default Navbar;
