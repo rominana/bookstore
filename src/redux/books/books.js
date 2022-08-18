@@ -1,17 +1,14 @@
 // Initial State
 const defaultState = [
   {
-    title: 'Harry Potter',
-    author: 'J.K. Rowling',
+    title: 'Book 1',
+    author: 'Author 1',
     id: '1',
   },
-  {
-    title: 'Lord of the Rings',
-    author: 'J.R.R. Tolkien',
-    id: '2',
-  },
+
 ];
 
+// Ducks: Redux Reducer Bundles
 // Actions
 const CREATE = 'CREATE';
 const REMOVE = 'REMOVE';
