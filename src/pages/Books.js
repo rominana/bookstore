@@ -2,7 +2,6 @@ import { React, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
 import BookData from '../components/BookData';
-import Navbar from '../components/Navbar';
 
 import {
   selectBooks,
@@ -51,8 +50,6 @@ const Books = () => {
 
   return (
     <>
-      <Navbar />
-      <h1>Book List</h1>
       {section}
       <BookData />
     </>

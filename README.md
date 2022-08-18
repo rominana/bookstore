@@ -23,7 +23,6 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
     git clone https://github.com/rominana/bookstore.git
-    cd react-tutorial/
 ### Install
 
     npm install
@@ -31,9 +30,6 @@ To get a local copy up and running follow these simple example steps.
 
     npm run build
     npm start
-### Deployment
-
-    npm run deploy
 ## Author
 
 👤 **Romina Patiño**
@@ -53,10 +49,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Microverse
-- Hat tip to anyone whose code was used
-- My supportive family 😊
+@microverse
 
 ## 📝 License
 
