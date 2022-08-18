@@ -1,11 +1,11 @@
 .book-card {
   display: flex;
+  font-family: 'Roboto Slab', serif;
   margin: 2.313rem 6.25rem;
   border: solid 1px #e8e8e8;
   background-color: white;
   min-width: 75rem;
   height: 10.625rem;
-  font-family: 'Roboto Slab', serif;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.688rem;
@@ -110,6 +110,6 @@
 
 .third-column h2 {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 1rem;
 }

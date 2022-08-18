@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/booksCrud';
 import loading from './assets/loading.png';
+import './Book.css';
 
 const Book = (props) => {
   const {
@@ -34,7 +35,7 @@ const Book = (props) => {
         <div className="second-column">
           <img src={loading} alt="progress" />
           <div className="progress">
-            <h1>64%</h1>
+            <h1>8%</h1>
             <h2>Completed</h2>
           </div>
         </div>

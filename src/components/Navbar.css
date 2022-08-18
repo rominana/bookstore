@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.813rem 6.25rem;
-  min-width: 85rem;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 2.375rem;
   border: solid 1px #e8e8e8;
   background-color: white;
+  padding: 1.813rem 6.25rem;
+  min-width: 85rem;
+  margin-bottom: 2.375rem;
 }
 
 .links {
@@ -23,10 +23,10 @@
 }
 
 .nav a {
-  text-decoration: none;
-  font-weight: normal;
   color: #121212;
   font-size: 0.813rem;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 .nav img {
