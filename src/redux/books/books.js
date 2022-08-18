@@ -1,9 +1,14 @@
 // Initial State
 const defaultState = [
   {
-    title: 'Book 1',
-    author: 'Author 1',
+    title: 'Harry Potter',
+    author: 'J.K. Rowling',
     id: '1',
+  },
+  {
+    title: 'Lord of the Rings',
+    author: 'J.R.R. Tolkien',
+    id: '2',
   },
 ];
 
@@ -17,7 +22,7 @@ export default function booksReducer(state = defaultState, action = {}) {
     case CREATE:
       return state.concat(action.book);
     case REMOVE:
-      return state.filter((book) => JSON.stringify(book) !== JSON.stringify(action.book));
+      return state.filter((book) => book.id !== action.book.id);
     default:
       return state;
   }
