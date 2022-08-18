@@ -7,6 +7,7 @@ const defaultState = [
   },
 ];
 
+// Ducks: Redux Reducer Bundles
 // Actions
 const CREATE = 'CREATE';
 const REMOVE = 'REMOVE';
@@ -17,7 +18,7 @@ export default function booksReducer(state = defaultState, action = {}) {
     case CREATE:
       return state.concat(action.book);
     case REMOVE:
-      return state.filter((book) => JSON.stringify(book) !== JSON.stringify(action.book));
+      return state.filter((book) => book.id !== action.book.id);
     default:
       return state;
   }

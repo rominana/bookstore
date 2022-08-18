@@ -10,8 +10,6 @@
 - React
 - Redux
 - CSS
-- React Route
-- React Icons
 
 ## Getting Started
 
