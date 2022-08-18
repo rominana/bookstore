@@ -5,7 +5,6 @@ const defaultState = [
     author: 'Author 1',
     id: '1',
   },
-
 ];
 
 // Ducks: Redux Reducer Bundles

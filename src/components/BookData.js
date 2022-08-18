@@ -10,7 +10,7 @@ const BookData = () => {
 
   return (
     <>
-      <h1>Add new book</h1>
+      <h1>Add a new book</h1>
       <input type="text" name="title" value={titleInput} onInput={(e) => setTitleInput(e.target.value)} />
       <input type="text" name="author" value={authorInput} onInput={(e) => setAuthorInput(e.target.value)} />
       <button

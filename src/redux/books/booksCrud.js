@@ -74,8 +74,8 @@ export const booksStatus = createSlice({
   },
 });
 
-export const selectAllBooks = (state) => state.books.books;
-export const getBooksStatus = (state) => state.books.status;
-export const getBooksError = (state) => state.books.error;
+export const selectBooks = (state) => state.books.books;
+export const getStatus = (state) => state.books.status;
+export const getError = (state) => state.books.error;
 
 export default booksStatus.reducer;

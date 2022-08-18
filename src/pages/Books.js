@@ -5,18 +5,18 @@ import BookData from '../components/BookData';
 import Navbar from '../components/Navbar';
 
 import {
-  selectAllBooks,
-  getBooksStatus,
-  getBooksError,
+  selectBooks,
+  getStatus,
+  getError,
   fetchBooks,
 } from '../redux/books/booksCrud';
 
 const Books = () => {
   const dispatch = useDispatch();
 
-  const booklist = useSelector(selectAllBooks);
-  const booksStatus = useSelector(getBooksStatus);
-  const error = useSelector(getBooksError);
+  const booklist = useSelector(selectBooks);
+  const booksStatus = useSelector(getStatus);
+  const error = useSelector(getError);
   useEffect(() => {
     if (booksStatus === 'idle') {
       dispatch(fetchBooks());
